@@ -1,0 +1,14 @@
+check,computed,reference,relative_error,tolerance,pass,note
+EdS age (H0 t0 = 2/3),0.666666666667,0.666666666667,1.449e-14,1.0e-09,True,
+flat LCDM age vs closed form,0.964099381639,0.964099381639,4.894e-14,1.0e-09,True,
+Milne age (H0 t0 = 1),1,1,9.992e-15,1.0e-09,True,
+EdS comoving distance z=3,4447.95931751,4447.95931751,9.815e-15,1.0e-09,True,
+EdS particle horizon,8895.91863502,8895.91863501,2.413e-14,1.0e-09,True,
+de Sitter event horizon,4447.95931751,4447.95931751,1.022e-15,1.0e-07,True,
+closed matter universe crunch time (2 pi / H0),6.28318530718,6.28318530718,2.214e-13,1.0e-05,True,
+second-order ODE vs quadrature (dt = 0.5/H0),0.5,0.5,7.239e-13,1.0e-08,True,
+"growth ODE vs Heath integral (flat LCDM, a=1)",0.778981016736,0.778981016771,4.422e-11,1.0e-07,True,
+Mukhanov-Sasaki vs de Sitter P_R,1.26151267871e-08,1.26145885497e-08,4.267e-05,1.0e-03,True,
+"Simpson age, N = 321 log-spaced points",13.7906864225,13.790686825,2.919e-08,1.0e-06,True,
+"Simpson age, N = 1281 log-spaced points",13.7906868234,13.790686825,1.183e-10,1.0e-09,True,
+recombination 100 theta* vs Planck theta_MC (approximate model),1.04745912916,1.0409,6.301e-03,1.5e-02,True,"model approximation, not a numerical error"

@@ -1,0 +1,209 @@
+{
+  "fig01_scale_factor_vs_time": {
+    "caption": "Scale factor of the fiducial flat LCDM background from the exact quadrature t(a). Shaded bands mark radiation, matter and cosmological-constant domination (boundaries at a_eq = Om_r/Om_m and a = (Om_m/Om_L)^(1/3)). The far-future branch assumes a cosmological constant persists forever (conditional on the model).",
+    "category": "numerical",
+    "dataset": "results/datasets/fig01_scale_factor_vs_time.csv",
+    "pdf": "results/figures/fig01_scale_factor_vs_time.pdf",
+    "png": "results/figures/fig01_scale_factor_vs_time.png",
+    "seconds": 1.28,
+    "title": "Scale factor versus cosmic time"
+  },
+  "fig02_hubble_parameter_vs_redshift": {
+    "caption": "Left: H(z) for the fiducial LCDM model, an Einstein-de Sitter comparison model and the matter-only power law. Right: a_dot = H/(1+z) (in units of the Hubble constant) whose minimum marks the transition from deceleration to acceleration, here z = 0.63.",
+    "category": "numerical",
+    "dataset": "results/datasets/fig02_hubble_parameter_vs_redshift.csv",
+    "pdf": "results/figures/fig02_hubble_parameter_vs_redshift.pdf",
+    "png": "results/figures/fig02_hubble_parameter_vs_redshift.png",
+    "seconds": 1.02,
+    "title": "Hubble parameter versus redshift"
+  },
+  "fig03_density_fractions": {
+    "caption": "Density parameters Omega_i(a) = rho_i/rho_crit(a) for radiation, matter, spatial curvature and a cosmological constant. The fractions sum to one at every a (checked in tests). The right panel uses an illustrative non-flat closure to show the curvature term; it is not a fit to data. Neutrinos are treated as massless radiation.",
+    "category": "numerical",
+    "dataset": "results/datasets/fig03_density_fractions.csv",
+    "pdf": "results/figures/fig03_density_fractions.pdf",
+    "png": "results/figures/fig03_density_fractions.png",
+    "seconds": 0.92,
+    "title": "Density fractions versus scale factor"
+  },
+  "fig04_deceleration_parameter": {
+    "caption": "Left: deceleration parameter q = (1/2) sum Omega_i (1+3w_i) over all epochs, tending to 1, 1/2 and -1 in radiation, matter and Lambda domination. Right: q(z) for constant dark-energy equation of state w and for a universe without dark energy. The numerical zero crossing for LCDM agrees with the analytic estimate a = (Om_m/2Om_L)^(1/3).",
+    "category": "numerical",
+    "dataset": "results/datasets/fig04_deceleration_parameter.csv",
+    "pdf": "results/figures/fig04_deceleration_parameter.pdf",
+    "png": "results/figures/fig04_deceleration_parameter.png",
+    "seconds": 0.77,
+    "title": "Deceleration parameter and acceleration transition"
+  },
+  "fig05_photon_temperature_scaling": {
+    "caption": "Adiabatic cooling of the CMB blackbody, T(z) = T0 (1+z) with T0 = 2.7255 K (adopted fiducial; Fixsen 2009 quotes 2.725 +- 0.001 K). Markers locate characteristic epochs computed from the model (recombination from the Peebles calculation; other temperatures are textbook scales, and the QCD/electroweak transitions are smooth crossovers, not sharp events). No temperature measurements are plotted.",
+    "category": "established",
+    "dataset": "results/datasets/fig05_photon_temperature_scaling.csv",
+    "pdf": "results/figures/fig05_photon_temperature_scaling.pdf",
+    "png": "results/figures/fig05_photon_temperature_scaling.png",
+    "seconds": 0.57,
+    "title": "Photon temperature scaling"
+  },
+  "fig06_cosmic_timeline": {
+    "caption": "Logarithmic timeline of the universe's epochs. Colour AND hatch encode the epistemic category: established theory; computed by this code; approximate with stated validity; model dependent; speculative. Times of post-inflationary epochs come from the radiation-era t = 1/(2H) relation with the g_* step approximation (about 10% uncertain near thresholds) and from the fiducial background; inflation timing is shown for one illustrative model and its time origin is not physically meaningful; the Planck-era bar spans the regime where classical GR cannot be trusted. Structure-formation epoch is qualitative (starting at z ~ 30 as an indicative marker) and not computed by the background solver.",
+    "category": "model",
+    "dataset": "results/datasets/fig06_cosmic_timeline.csv",
+    "pdf": "results/figures/fig06_cosmic_timeline.pdf",
+    "png": "results/figures/fig06_cosmic_timeline.png",
+    "seconds": 0.95,
+    "title": "Cosmic timeline with model dependence"
+  },
+  "fig07_comoving_distance": {
+    "caption": "Line-of-sight comoving distance D_C(z) = (c/H0) int dz/E(z) for three background models (quadrature, tolerance 1e-11 relative). Horizontal lines: comoving particle horizon today (radiation included) and comoving event horizon today (exists only for the accelerating LCDM case). Distances are model-conditional.",
+    "category": "numerical",
+    "dataset": "results/datasets/fig07_comoving_distance.csv",
+    "pdf": "results/figures/fig07_comoving_distance.pdf",
+    "png": "results/figures/fig07_comoving_distance.png",
+    "seconds": 1.02,
+    "title": "Comoving distance versus redshift"
+  },
+  "fig08_luminosity_angular_distance": {
+    "caption": "Luminosity distance (left) and angular-diameter distance (right) for the flat fiducial model and an Einstein-de Sitter comparison. D_A has a maximum, so distant objects can subtend larger angles; the location of the maximum depends on the model. Distance duality D_L = (1+z)^2 D_A holds by construction in the implemented metric geometry.",
+    "category": "numerical",
+    "dataset": "results/datasets/fig08_luminosity_angular_distance.csv",
+    "pdf": "results/figures/fig08_luminosity_angular_distance.pdf",
+    "png": "results/figures/fig08_luminosity_angular_distance.png",
+    "seconds": 1.59,
+    "title": "Luminosity and angular-diameter distances"
+  },
+  "fig09_inflation_background": {
+    "caption": "Exact numerical background for two representative single-field models (M_P = 1): quadratic V = m^2 phi^2/2 and Starobinsky-type V = (3/4) M^2 (1 - exp(-sqrt(2/3) phi))^2. The e-fold equation phi'' = -(3 - eps)(phi' + V_phi/V) is integrated from the slow-roll attractor until eps_H = 1. These potentials are model assumptions, not established physics, and initial conditions are not derived.",
+    "category": "model",
+    "dataset": "results/datasets/fig09_inflation_background.csv",
+    "pdf": "results/figures/fig09_inflation_background.pdf",
+    "png": "results/figures/fig09_inflation_background.png",
+    "seconds": 1.84,
+    "title": "Inflationary background evolution"
+  },
+  "fig10_comoving_hubble_radius": {
+    "caption": "Comoving Hubble radius (aH)^-1 built from the exact Starobinsky-type background during inflation (amplitude fixed by A_s = 2.1e-9 at the pivot), a reheating epoch of equation of state w = 0 with the stated T_reh (or instantaneous reheating), radiation domination with the SM g_*(T) step approximation and entropy conservation, then the matter and Lambda eras of the fiducial background. Scales exit the horizon during inflation (curve decreasing) and re-enter later; the horizon-problem solution corresponds to the 1/k line lying above the curve at early times. T_reh is an input, not a measurement.",
+    "category": "model",
+    "dataset": "results/datasets/fig10_comoving_hubble_radius__1.csv",
+    "pdf": "results/figures/fig10_comoving_hubble_radius.pdf",
+    "png": "results/figures/fig10_comoving_hubble_radius.png",
+    "seconds": 0.73,
+    "title": "Comoving Hubble radius through cosmic history"
+  },
+  "fig11_linear_growth_factor": {
+    "caption": "Linear, scale-independent growth of pressureless matter perturbations from the equation D'' + (1-q) D' = (3/2) Om_m(a) D with Meszaros initial conditions. Valid on sub-horizon, linear scales with smooth dark energy; no neutrino free streaming, no modified gravity. This is NOT a nonlinear structure-formation calculation and does not predict galaxies or halos by itself.",
+    "category": "approximate",
+    "dataset": "results/datasets/fig11_linear_growth_factor.csv",
+    "pdf": "results/figures/fig11_linear_growth_factor.pdf",
+    "png": "results/figures/fig11_linear_growth_factor.png",
+    "seconds": 0.71,
+    "title": "Linear growth factor"
+  },
+  "fig12_future_scenarios": {
+    "caption": "Classical future expansion of eight scenarios, each defined by explicit density parameters (see docs/FUTURE_COSMOLOGY.md). Crosses mark finite-time singularities (big rip for w < -1, big crunch for recollapsing models). These are conditional outcomes of assumed models and classical General Relativity, NOT predictions of the actual final state of the universe; vacuum decay, quantum gravity and unknown physics are excluded.",
+    "category": "model",
+    "dataset": "results/datasets/fig12_future_scenarios__1.csv",
+    "pdf": "results/figures/fig12_future_scenarios.pdf",
+    "png": "results/figures/fig12_future_scenarios.png",
+    "seconds": 1.52,
+    "title": "Comparison of conditional future scenarios"
+  },
+  "fig13_inflation_ns_r": {
+    "caption": "Leading-order potential slow-roll predictions n_s = 1 - 6 eps_V + 2 eta_V and r = 16 eps_V evaluated N e-folds before the end of the numerically integrated background. Filled circles: N = 50 and 60; open diamonds: the self-consistent N* for instantaneous reheating. Only the published constraint values (n_s band, r bound) are drawn; no likelihood contours are reproduced. The quadratic model lies above the bound, the Starobinsky-type model below it, subject to the model assumptions.",
+    "category": "model",
+    "dataset": "results/datasets/fig13_inflation_ns_r.csv",
+    "pdf": "results/figures/fig13_inflation_ns_r.pdf",
+    "png": "results/figures/fig13_inflation_ns_r.png",
+    "seconds": 0.6,
+    "title": "Inflationary observables in the n_s-r plane"
+  },
+  "fig14_reheating": {
+    "caption": "Perturbative reheating toy model (constant decay rate, matter-like inflaton oscillations) with total density obeying the Friedmann constraint. Left: inflaton and radiation densities for three decay rates; reheating (radiation = inflaton) occurs near H ~ Gamma. Right: the temperature at radiation-inflaton equality relative to the conventional T_reh = (90/(pi^2 g))^(1/4) sqrt(Gamma M_P) is independent of Gamma (about 0.64), confirming the Gamma^(1/2) scaling. The decay rate is a free parameter; no reheating temperature is inferred from data.",
+    "category": "model",
+    "dataset": "results/datasets/fig14_reheating__1.csv",
+    "pdf": "results/figures/fig14_reheating.pdf",
+    "png": "results/figures/fig14_reheating.png",
+    "seconds": 28.19,
+    "title": "Perturbative reheating"
+  },
+  "fig15_relativistic_degrees_of_freedom": {
+    "caption": "Step-function approximation to g_*(T) and g_*s(T) from Standard-Model particle counting with thresholds at T = m. The real electroweak and QCD transitions are smooth crossovers, so the steps are an approximation (documented in docs/THERMAL_HISTORY.md). Late-time values 3.38 (energy) and 3.909 (entropy) follow from e+- annihilation heating the photons relative to neutrinos.",
+    "category": "approximate",
+    "dataset": "results/datasets/fig15_relativistic_degrees_of_freedom.csv",
+    "pdf": "results/figures/fig15_relativistic_degrees_of_freedom.pdf",
+    "png": "results/figures/fig15_relativistic_degrees_of_freedom.png",
+    "seconds": 0.65,
+    "title": "Relativistic degrees of freedom"
+  },
+  "fig16_recombination": {
+    "caption": "Approximate recombination: Peebles three-level atom with case-B coefficients, Ly-alpha escape and two-photon decay, hydrogen only, no reionization, T_m = T_gamma. The visibility function peaks at z = 1079; the comoving sound horizon at the peak is 145.2 Mpc and 100 theta* = 1.0475, to be compared with the 100 theta_MC = 1.0409 +- 0.0003 reported by Planck 2018; the ~0.6% offset reflects the approximations (helium, fudge factor, radiative transfer). This is NOT a CMB anisotropy calculation.",
+    "category": "approximate",
+    "dataset": "results/datasets/fig16_recombination.csv",
+    "pdf": "results/figures/fig16_recombination.pdf",
+    "png": "results/figures/fig16_recombination.png",
+    "seconds": 1.46,
+    "title": "Recombination and last scattering"
+  },
+  "fig17_primordial_spectra": {
+    "caption": "Primordial spectra from direct numerical integration of the Mukhanov-Sasaki (scalar) and tensor mode equations on the exact inflationary background, with Bunch-Davies initial conditions and the pivot k = 0.05 /Mpc fixed by the self-consistent N* for instantaneous reheating. The leading-order slow-roll amplitude is accurate to ~2-3% for scalars and <0.01% for tensors in these models; n_s and r quoted are numerical log-derivative and ratio at the pivot. Amplitude normalisation A_s = 2.1e-9 was imposed with the leading-order formula, so the numerical A_s differs by the same 2-3%.",
+    "category": "model",
+    "dataset": "results/datasets/fig17_primordial_spectra.csv",
+    "pdf": "results/figures/fig17_primordial_spectra.pdf",
+    "png": "results/figures/fig17_primordial_spectra.png",
+    "seconds": 27.54,
+    "title": "Primordial scalar and tensor spectra"
+  },
+  "fig18_matter_power_spectrum": {
+    "caption": "Left: two analytic fits to the matter transfer function (no baryon acoustic oscillations). Right: linear matter power spectrum built from A_s = 2.1e-9, n_s = 0.965, the Eisenstein-Hu shape and the linear growth factor. Resulting sigma_8 = 0.836 (EH) / 0.847 (BBKS) versus the Planck-reported 0.811 +- 0.006; the few-percent excess reflects the no-wiggle fit, massless-neutrino treatment and fitting-formula errors. Linear regime only; this does not include non-linear evolution or CMB physics.",
+    "category": "approximate",
+    "dataset": "results/datasets/fig18_matter_power_spectrum.csv",
+    "pdf": "results/figures/fig18_matter_power_spectrum.pdf",
+    "png": "results/figures/fig18_matter_power_spectrum.png",
+    "seconds": 1.41,
+    "title": "Transfer function and linear matter power spectrum"
+  },
+  "fig19_halo_mass_function": {
+    "caption": "Halo mass functions from the Press-Schechter and Sheth-Tormen analytic ansatz using sigma(M) from the linear power spectrum, delta_c = 1.686 and the fit parameters A = 0.3222, a = 0.707, p = 0.3 from the literature. These are phenomenological fits calibrated on N-body simulations, NOT derived from the homogeneous background; they illustrate the exponential cutoff of massive halos and the redshift evolution only. Accuracy of ~10-20% at best.",
+    "category": "model",
+    "dataset": "results/datasets/fig19_halo_mass_function.csv",
+    "pdf": "results/figures/fig19_halo_mass_function.pdf",
+    "png": "results/figures/fig19_halo_mass_function.png",
+    "seconds": 1.46,
+    "title": "Halo mass functions"
+  },
+  "fig20_numerical_convergence": {
+    "caption": "Numerical-convergence diagnostics for the background integrals of the fiducial model; the reference is the adaptive quadrature at tolerance 1e-11. Errors below 1e-16 are floored for display. (a) Starting the age integral at a_min instead of 0 removes ~a_min^2/(2 sqrt(Om_r)). (b) Fixed-grid rules converge with the expected orders. (c) Adaptive tolerance sweep (the achieved error is far below loose requests because the adaptive rule overshoots). (d) Truncating the event-horizon integral at a_max leaves the analytic tail 1/(sqrt(Om_L) a_max).",
+    "category": "numerical",
+    "dataset": "results/datasets/fig20_numerical_convergence__1.csv",
+    "pdf": "results/figures/fig20_numerical_convergence.pdf",
+    "png": "results/figures/fig20_numerical_convergence.png",
+    "seconds": 2.18,
+    "title": "Numerical convergence diagnostics"
+  },
+  "fig21_parameter_sensitivity": {
+    "caption": "Left: central-difference logarithmic sensitivities of background quantities to h and Om_m (the density-parameter derivative includes the flat closure Om_L = 1 - Om_m - Om_r with Om_b h^2 held fixed). Right: age distribution from INDEPENDENT Gaussian draws of h and Om_m with widths 0.5 km/s/Mpc and 0.007 quoted in the Planck 2018 VI abstract. Real posteriors are correlated; this is illustrative, not an error budget.",
+    "category": "approximate",
+    "dataset": "results/datasets/fig21_parameter_sensitivity.csv",
+    "pdf": "results/figures/fig21_parameter_sensitivity.pdf",
+    "png": "results/figures/fig21_parameter_sensitivity.png",
+    "seconds": 1.3,
+    "title": "Parameter sensitivity and illustrative uncertainty"
+  },
+  "fig22_conformal_diagrams": {
+    "caption": "Conformal-time diagrams (light rays are 45 degree lines, chi = +-eta). Curves: particle horizon, the past light cone of an observer today (vertical line marks conformal time today), the event horizon when finite, and the comoving Hubble radius c/(aH). For the accelerating LCDM case the comoving Hubble radius grows again after matter domination while the event horizon shrinks; the Einstein-de Sitter case has no finite event horizon. The closed model is shown up to maximum expansion only. Spatial curvature is not drawn.",
+    "category": "numerical",
+    "dataset": "results/datasets/fig22_conformal_diagrams.csv",
+    "pdf": "results/figures/fig22_conformal_diagrams.pdf",
+    "png": "results/figures/fig22_conformal_diagrams.png",
+    "seconds": 2.77,
+    "title": "Conformal diagrams and horizons"
+  },
+  "fig23_bbn_relations": {
+    "caption": "Textbook relations used in the BBN interface. Left: equilibrium n/p, valid only while weak interactions keep neutrons and protons in equilibrium; weak freeze-out occurs at roughly MeV temperatures and is NOT computed here. Right: the mass fraction of helium-4 if every neutron were bound into 4He, as a function of an externally supplied n/p. No primordial abundance (D/H, Y_p, 7Li/H) is predicted by this repository; a nuclear reaction network (PRIMAT, AlterBBN, PArthENoPE) is required.",
+    "category": "established",
+    "dataset": "results/datasets/fig23_bbn_relations.csv",
+    "pdf": "results/figures/fig23_bbn_relations.pdf",
+    "png": "results/figures/fig23_bbn_relations.png",
+    "seconds": 0.73,
+    "title": "BBN interface relations"
+  }
+}

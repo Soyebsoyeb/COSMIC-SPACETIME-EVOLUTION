@@ -1,0 +1,26 @@
+# Fiducial flat LCDM background.  Values are rounded base-LCDM numbers quoted in the abstract of
+# Planck 2018 results VI (arXiv:1807.06209): H0 = 67.4 km/s/Mpc, Omega_m = 0.315, n_s = 0.965,
+# Omega_b h^2 = 0.0224.  A_s = 2.1e-9 is the rounded value implied by ln(10^10 A_s) ~ 3.04.
+# T_cmb = 2.7255 K is an adopted fiducial value (Fixsen 2009 quotes 2.725 +- 0.001 K).
+# N_eff = 3.046 is the standard-model value; neutrinos are treated as massless radiation (approximation).
+# Y_p is an INPUT used only to count free electrons in the recombination model; it is not computed.
+cosmology:
+  name: fiducial_lcdm
+  h: 0.674
+  omega_m: 0.315
+  omega_b_h2: 0.0224
+  T_cmb: 2.7255
+  N_eff: 3.046
+  w0: -1.0
+  wa: 0.0
+  n_s: 0.965
+  A_s: 2.1e-9
+  k_pivot: 0.05
+  Y_p: 0.245
+numerics:
+  quad_epsabs: 1.0e-13
+  quad_epsrel: 1.0e-11
+  ode_rtol: 1.0e-10
+  random_seed: 12345
+outputs:
+  results_dir: results

@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata below."
+title: "Cosmic Spacetime Evolution: A Computational Investigation of the Universe from Its Earliest Physical Regimes to Its Possible Cosmic End States"
+version: "0.1.0"
+type: software
+license: MIT
+# Placeholders: replace before publishing.
+authors:
+  - family-names: "[FAMILY NAME]"
+    given-names: "[GIVEN NAME]"
+repository-code: "https://github.com/[OWNER]/[REPOSITORY]"
+# doi: "[DOI PLACEHOLDER: assign on archival release, e.g. via Zenodo]"
+abstract: "Research-prototype Python package computing FLRW background evolution, early-universe thermal history, slow-roll inflation, linear perturbations, recombination, linear structure and conditional future scenarios, with explicit labels separating established, numerical, approximate, model-dependent and speculative results."
+keywords:
+  - cosmology
+  - general relativity
+  - Friedmann equations
+  - inflation
+  - computational physics

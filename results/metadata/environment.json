@@ -1,0 +1,27 @@
+{
+  "fiducial_parameters": {
+    "A_s": 2.1e-09,
+    "N_eff": 3.046,
+    "T_cmb": 2.7255,
+    "Y_p": 0.245,
+    "h": 0.674,
+    "k_pivot": 0.05,
+    "n_s": 0.965,
+    "name": "fiducial",
+    "omega_b_h2": 0.0224,
+    "omega_de": null,
+    "omega_de_eff": 0.6849079039454903,
+    "omega_k": null,
+    "omega_k_eff": 0.0,
+    "omega_m": 0.315,
+    "omega_r": 9.209605450980755e-05,
+    "sigma8_planck": 0.811,
+    "w0": -1.0,
+    "wa": 0.0
+  },
+  "matplotlib": "3.11.2",
+  "numpy": "2.5.3",
+  "package_version": "0.1.0",
+  "python": "3.13.16",
+  "scipy": "1.18.1"
+}

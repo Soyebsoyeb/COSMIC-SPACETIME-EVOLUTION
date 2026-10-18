@@ -1,0 +1,28 @@
+# Key results for configs/fiducial_lcdm.yaml; category = epistemic status (see docs/PHYSICS.md)
+quantity,value,unit,category,method
+Age of the universe t0,13.790687,Gyr,numerical,exact quadrature of the Friedmann equation
+Hubble time 1/H0,14.507303,Gyr,numerical,unit conversion
+Omega_r (photons + massless neutrinos),9.2096055e-05,,numerical,Stefan-Boltzmann with N_eff
+Matter-radiation equality z_eq,3419.342,,numerical,Omega_r a^-4 = Omega_m a^-3 (massless-nu approximation)
+Onset of acceleration z_acc (q = 0),0.63172067,,numerical,root of q(a)
+Cosmic time at onset of acceleration,7.6931755,Gyr,numerical,t(a_acc)
+Comoving particle horizon today,14.144387,Gpc,numerical,int_0^1 da/sqrt(Q)
+Comoving event horizon today,5.1139124,Gpc,numerical,int_1^inf da/sqrt(Q)
+Comoving distance to z = 1100,13.866194,Gpc,numerical,quadrature
+Angular-diameter distance to z = 1100,12.594181,Mpc,numerical,quadrature
+Linear growth suppression D+(1),0.78810723,,approximate,"linear growth ODE, scale independent"
+"sigma_8 (EH no-wiggle, A_s = 2.1e-9)",0.83569328,,approximate,fitting-formula transfer function; Planck-quoted 0.811 +- 0.006
+Baryon-to-photon ratio eta,6.1245153e-10,,numerical,Omega_b h^2 and T_cmb
+Recombination visibility peak z*,1078.9197,,approximate,Peebles three-level hydrogen model
+Comoving sound horizon at z*,145.20039,Mpc,approximate,Peebles model + background
+100 theta* = 100 r_s/D_M,1.0474591,,approximate,Planck 2018 reports 100 theta_MC = 1.0409 +- 0.0003
+de Sitter horizon radius c/H_Lambda,17.529543,Gly,numerical,asymptotic future (conditional on Lambda)
+Gibbons-Hawking temperature,2.1975484e-30,K,established,"hbar H_Lambda/(2 pi k_B), pure de Sitter"
+[Starobinsky] N* (instantaneous reheating),55.724767,e-folds,model,self-consistent pivot e-folds
+[Starobinsky] n_s at N*,0.96449318,,model,"leading-order slow roll, exact background"
+[Starobinsky] r at N*,0.0035932457,,model,16 eps_V
+[Starobinsky] H_end,7.233067e+12,GeV,model,amplitude fixed by A_s = 2.1e-9
+[quadratic] N* (instantaneous reheating),57.537362,e-folds,model,self-consistent pivot e-folds
+[quadratic] n_s at N*,0.96490944,,model,"leading-order slow roll, exact background"
+[quadratic] r at N*,0.14036223,,model,16 eps_V
+[quadratic] H_end,7.5712513e+12,GeV,model,amplitude fixed by A_s = 2.1e-9

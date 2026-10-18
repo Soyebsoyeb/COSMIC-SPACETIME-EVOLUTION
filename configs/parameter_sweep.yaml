@@ -1,0 +1,5 @@
+# Grid sweep of background quantities over (h, Omega_m).  Ranges are illustrative, not posterior bounds.
+base: fiducial_lcdm.yaml
+sweep:
+  h: [0.64, 0.66, 0.674, 0.69, 0.72, 0.74]
+  omega_m: [0.27, 0.29, 0.315, 0.34, 0.36]

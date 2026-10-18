@@ -1,0 +1,18 @@
+# dataset for fig20_numerical_convergence: Numerical convergence diagnostics
+# fiducial parameters: h=0.674, Omega_m=0.315, Omega_b h^2=0.0224, T_cmb=2.7255 K, N_eff=3.046, A_s=2.1e-09, n_s=0.965
+# units: see column names; time in Gyr or s, distances in Mpc or Gpc, k in 1/Mpc
+# epistemic category: numerical
+# code version: 0.1.0
+a_min,err_cutoff
+1.0000000000e-14,1.2880843876e-16
+1.0000000000e-13,0.0000000000e+00
+1.0000000000e-12,0.0000000000e+00
+1.0000000000e-11,0.0000000000e+00
+1.0000000000e-10,1.2880843876e-16
+1.0000000000e-09,1.2880843876e-16
+1.0000000000e-08,5.4099544280e-15
+1.0000000000e-07,5.4782229006e-13
+1.0000000000e-06,5.4746549068e-11
+1.0000000000e-05,5.4195670154e-09
+1.0000000000e-04,4.9542264865e-07
+1.0000000000e-03,3.1147330087e-05
